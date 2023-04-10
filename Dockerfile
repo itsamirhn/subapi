@@ -1,4 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn:python3.10
+FROM docker.repos.balad.ir/tiangolo/uvicorn-gunicorn:python3.10
 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt

@@ -252,3 +252,5 @@ cython_debug/
 #.idea/
 
 .idea
+
+app/settings/custom.py
